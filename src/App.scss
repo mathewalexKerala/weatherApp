@@ -1,0 +1,11 @@
+$bggradientstart: #670979;
+$bggradientend: #9200ff;
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(180deg,$bggradientstart 0%,$bggradientend 100%);
+  }
